@@ -1,0 +1,346 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-weight: normal;
+}
+.top{
+    width:100%;
+    height:1.46rem;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.top .t_left{
+    width:2.24rem;
+    height:0.6rem;
+    margin-left: 0.54rem;
+}
+.top .t_left h3{
+    font-size: 0.5rem;
+}
+.top .t_right{
+    width:2.01rem;
+    height:0.67rem;
+    border-radius: 0.5rem;
+    border:0.01rem solid #eaeaea;
+    margin-right: 0.25rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.14rem;
+    padding-bottom: 0.14rem;
+}
+.top .t_right .t_r{
+    width:1rem;
+    height:100%;
+    border-right: 0.01rem solid #ccc;
+    background-image: url('../img/01.PNG');
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: 0 0.15rem;
+}
+.top .t_right .t_g{
+    width:1rem;
+    height:100%;
+    background-image: url('../img/02.PNG');
+    background-size: 0.75rem;
+    background-repeat: no-repeat;
+    background-position: 0.1rem 0;
+}
+.banner{
+    width:100%;
+    height:9.6rem;
+    background: -moz-linear-gradient(#3bbdff,#46e6ff);
+    background: -webkit-linear-gradient(#3bbdff,#46e6ff);
+    background: -o-linear-gradient(#3bbdff,#46e6ff);
+    position: relative;
+}
+.banner img{
+    width:100%;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+.banner .banner_top{
+    width:100%;
+    height:1.08rem;
+    display: flex;
+    justify-content: space-between;
+}
+.banner .banner_top .banner_left{
+    width:2.5rem;
+    height:0.43rem;
+    margin-top: 0.65rem;
+    margin-left: 2.5rem;
+}
+.banner .banner_top .banner_right{
+    width:0.64rem;
+    height:0.75rem;
+    background: #fff;
+    margin-top: 0.33rem;
+    border-radius: 0.08rem;
+    margin-right: 0.32rem;
+    background-image: url('../img/03.PNG');
+    background-size: 0.5rem;
+    background-repeat: no-repeat;
+    background-position: 0.07rem 0.06rem;
+}
+.banner .banner_top .banner_left .dd{
+    width:0.36rem;
+    height:0.43rem;
+    background-image: url('../img/地点.png');
+    background-size: cover;
+    float: left;
+    margin-right: 0.15rem;
+
+}
+.banner .banner_top .banner_left h3{
+    font-size: 0.3rem;
+    color:#fff;
+}
+.banner .air{
+    width:1.49rem;
+    height:0.89rem;
+    background: #f1ab62;
+    border-radius: 0.2rem;
+    font-size: 0.4rem;
+    text-align: center;
+    color:#fff;
+    margin-top: 0.51rem;
+    margin-left: 0.21rem;
+}
+.banner .air h2{
+    font-size: 0.3rem;
+}
+.banner .air h3{
+    font-size: 0.3rem;
+}
+.banner .degree{
+    color:#fff;
+    text-align: center;
+}
+.banner .degree h2{
+    font-size: 0.4rem;
+    margin-right: 0.5rem;
+}
+.banner .degree h4{
+    font-size: 0.3rem;
+    font-weight: normal;
+}
+.banner .degree h5{
+    font-size: 0.5rem;
+    margin-top: 0.9rem;
+}
+.day{
+    width:100%;
+    height:2.03rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.day .lt{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid #e3e3e3;
+}
+.day .lt .lt_lf{
+    width:50%;
+    height:100%;
+}
+.day .lt .lt_rg{
+    width:50%;
+    height:100%;
+}
+.day .lt h2{
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top: 0.54rem;
+    margin-right: 0.5rem;
+}
+.day .lt h3{
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top: 0.17rem;
+}
+.day .lt h4{
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top:0.5rem;
+}
+.day .lt .tu{
+    margin-left:1rem;
+    margin-top: 0.3rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-image: url('../img/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kong{
+    width:100%;
+    height:0.23rem;
+    background: #f5f5f5;
+    border-top:1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+.hour{
+    width:100%;
+    height:2.7rem;
+    padding-top: 0.57rem;
+    padding-bottom: 0.53rem;
+    overflow-x: auto;
+}
+.hour .hours{
+    width:35rem;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hour::-webkit-scrollbar{
+    height:0;
+}
+.hour .hours li{
+    width:1.5rem;
+    height:100%;
+    background: #fff;
+}
+.hour .hours li p{
+    font-size: 0.3rem;
+    margin-left: 0.43rem;
+    margin-right: 0.43rem;
+    margin-top: 0.54rem;
+    color:#ccc;
+}
+.hour .hours li .tup{
+    margin-top: 0.2rem;
+    margin-left: 0.41rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-image: url('../img/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hour .hours li h3{
+    font-size: 0.4rem;
+    margin-top:0.3rem;
+    margin-left: 0.51rem;
+}
+.everyday{
+    width:100%;
+    height:7.77rem;
+}
+.everyday .ever_top{
+    width:100%;
+    height:2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+/*.everyday .ever_top li{*/
+    /*width: 100%;*/
+    /*height: 0.32rem;*/
+    /*float: left;*/
+    /*padding: 0;*/
+    /*margin-top: 0.6rem;*/
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+/*}*/
+/*.everyday .ever_top li span{*/
+    /*font-size: 0.32rem;*/
+    /*color: #c6c6c6;*/
+/*}*/
+.everyday .bot{
+    width:1.4rem;
+    height:2.5rem;
+    background: white;
+    margin-top: 0.43rem;
+}
+.everyday .bot p{
+    font-size: 0.25rem;
+    color:#8c8c8c;
+    text-align: center;
+}
+.everyday .bot h2{
+    font-size: 0.25rem;
+    color:#8c8c8c;
+    text-align: center;
+    margin-top: 0.1rem;
+}
+.everyday .bot h3{
+    font-size: 0.3rem;
+    color:#8c8c8c;
+    text-align: center;
+    margin-top: 0.26rem;
+}
+.everyday .bot .tu{
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-image: url('../img/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.everyday .ever_mid img{
+    width:100%;
+    height:2rem;
+    margin-top: 0.43rem;
+}
+.everyday .ever_but{
+    width:100%;
+    height:2.5rem;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -0.27rem;
+}
+.everyday .ever_but .bon{
+    width:1.4rem;
+    height:2.5rem;
+    background: white;
+    margin-top: 0.43rem;
+}
+.everyday .ever_but .bon .fen{
+    font-size: 0.25rem;
+    color:#8c8c8c;
+    text-align: center;
+}
+.everyday .ever_but .bon .ji{
+    font-size: 0.25rem;
+    color:#8c8c8c;
+    text-align: center;
+    margin-top: 0.1rem;
+}
+.everyday .ever_but .bon .zk{
+    font-size: 0.3rem;
+    color:#8c8c8c;
+    text-align: center;
+    margin-top:-0.2rem;
+}
+.everyday .ever_but .bon .tu{
+    margin-left: 0.3rem;
+    margin-bottom: 0.2rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-image: url('../img/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bottom{
+    width:100%;
+    height:0.8rem;
+    background: #f5f5f5;
+}
+.bottom p{
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.8rem;
+    color:#b2b2b2;
+}
+
+
